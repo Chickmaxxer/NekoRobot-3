@@ -145,10 +145,10 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🚑 Support", url=f"https://telegram.dog/{SUPPORT_CHAT}"
+            text="🚑 ꜱᴜᴘᴘᴏʀᴛ", url=f"https://telegram.dog/{SUPPORT_CHAT}"
         ),
         InlineKeyboardButton(
-            text="📢 Updates", url="https://telegram.dog/kizuki_updates"
+            text="📢 ᴜᴘᴅᴀᴛᴇꜱ", url="https://telegram.dog/kizuki_updates"
         ),
     ],
 ]
