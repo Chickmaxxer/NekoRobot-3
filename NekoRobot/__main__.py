@@ -164,11 +164,11 @@ HELP_STRINGS = """
 """
 
 GROUP_START_IMG = (
-    "https://te.legra.ph/file/5f272dc498e4cf91faf92.jpg",
-    "https://te.legra.ph/file/9d8190aba9ac3421af488.jpg",
-    "https://te.legra.ph/file/5b1ce336f0c0216224040.jpg",
-    "https://te.legra.ph/file/f1f67047d973f3aea4004.jpg",
-    "https://te.legra.ph/file/c2526c05d65fd2fbfa58b.jpg",
+    "https://graph.org/file/8282723f511797c1937e2.jpg",
+    "https://graph.org/file/77c509e239d99e95341c0.jpg",
+    "https://graph.org/file/aa240ae44d3b02f600382.jpg",
+    "https://graph.org/file/4d5303886eee22aa0700e.jpg",
+    "https://graph.org/file/5d0871d5b192fd34845d5.jpg",
 )
 
 DONATE_STRING = """❂ I'm Free for Everyone ❂"""
