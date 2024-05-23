@@ -81,11 +81,14 @@ def is_user_admin(chat: Chat, user_id: int, member: ChatMember = None) -> bool:
         chat.type == "private"
         or user_id in DRAGONS
         or user_id in DEV_USERS
+        or user_id in WOLVES
+        or user_id in TIGERS
         or chat.all_members_are_administrators
         or user_id in {777000, 1087968824}
     ):  # Count telegram and Group Anonymous as admin
         return True
-    if member:
+   
+   if member:
         return member.status in ("administrator", "creator")
 
     with THREAD_LOCK:
@@ -103,7 +106,7 @@ def is_user_admin(chat: Chat, user_id: int, member: ChatMember = None) -> bool:
             return user_id in admin_list
 
 
-def is_bot_admin(chat: Chat, bot_id: int, bot_member: ChatMember = None) -> bool:
+def is_bot_admin(chat: Chat, bot_id: int, bot_member: ChatMember: None) -> bool:
     if chat.type == "private" or chat.all_members_are_administrators:
         return True
 
@@ -118,8 +121,7 @@ def can_delete(chat: Chat, bot_id: int) -> bool:
 
 
 def is_user_ban_protected(
-    update: Update, user_id: int, member: ChatMember = None
-) -> bool:
+    update: Update, user_id: int, member: ChatMember = None) -> bool:
     if (
         chat.type == "private"
         or user_id in DRAGONS
