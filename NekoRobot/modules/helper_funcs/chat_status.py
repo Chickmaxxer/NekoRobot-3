@@ -85,7 +85,8 @@ def is_user_admin(chat: Chat, user_id: int, member: ChatMember = None) -> bool:
         or user_id in {777000, 1087968824}
     ):  # Count telegram and Group Anonymous as admin
         return True
-   if member:
+   
+if not member:
         return member.status in ("administrator", "creator")
 
     with THREAD_LOCK:
