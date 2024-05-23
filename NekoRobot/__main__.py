@@ -121,13 +121,13 @@ NEKO_STICKERS = (
 
 PM_START_TEXT = """
 ────「 [{}](https://graph.org/file/c2b0280cdd4278c140306.jpg) 」────
-*Hola! {},*
-*Meow Meow, Don't Touch Me Without My Permission!*
+*ʜᴏʟᴀ! {},*
+☉ *ɪ'ᴍ ᴘᴏᴡᴇʀꜰᴜʟ ᴅᴇᴍᴏɴ ꜱʟᴀʏᴇʀ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.. ᴄʜᴇᴄᴋ ᴏᴜᴛ ᴍʏ ᴄᴏᴏʟ ꜰᴇᴀᴛᴜʀᴇꜱ!*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-❍ *Uptime:* `{}`
-❍ `{}` *Users, Across* `{}` *Chats.*
+❍ *ᴜᴘᴛɪᴍᴇ:* `{}`
+❍ `{}` *ᴜꜱᴇʀꜱ, ᴀᴄʀᴏꜱꜱ* `{}` *ᴄʜᴀᴛꜱ.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-➛ Try The Guidelines Button Below To Know My Abilities ××
+➛ ᴛʀʏ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴋɴᴏᴡ ᴍʏ ᴀʙɪʟɪᴛɪᴇꜱ ××
 """
 
 buttons = [
