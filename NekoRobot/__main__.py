@@ -677,7 +677,7 @@ def donate(update: Update, context: CallbackContext) -> None:
                         [
                             InlineKeyboardButton(
                                 text="📢 Updates",
-                                url="https://telegram.dog/Programmer_Updates",
+                                url="https://telegram.dog/kizuki_updates",
                             ),
                             InlineKeyboardButton(
                                 text="🚑 Support",
